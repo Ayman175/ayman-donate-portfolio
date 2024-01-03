@@ -149,7 +149,7 @@ hr {
 }
 
 .donate-planing-container {
-    max-width: 1140px;
+    max-width: 1040px;
     margin: 0 auto;
     text-align: center;
 }
@@ -165,3 +165,82 @@ hr {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+/* donate plan iamge styles */
+.food-container {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    gap: 24px;
+}
+
+.food-container img {
+    width: 20%;
+}
+
+.food {
+    padding: 24px;
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10)
+}
+
+.food-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.food-description {
+    color: #707070;
+}
+
+/* depend container styles */
+.depend-container {
+    display: flex;
+    max-width: 1040px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.depend-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.depend-description {
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.depend-sub-description {
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.depend-container img {
+    width: 80%;
+}
+
+/* contact styles */
+.contact-container {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.contact-description {
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* newsletter styles */
